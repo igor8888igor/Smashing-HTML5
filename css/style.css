@@ -1,0 +1,157 @@
+body{
+	background-color: #F5F4EF;
+	font-family: "Trebuchet MS", Arial, sans-sherif;
+	color: #111111;
+	font-size: 14px;
+}
+h1{
+	font-size: 24px;
+	color: #C74350;
+}
+h2{
+	font-size: 20px;
+}
+h3{
+	font-size: 18px;
+}
+h1,h2,h3,h4{
+	margin: 0;
+}
+
+#wrap{
+	width: 800px;
+	margin: auto;
+}
+a{
+	color: #C74350;
+	text-decoration: underline;
+	transition: color 0.3s, background-color 0.3s;
+}
+a:hover{
+	background-color: #C74350;
+	color: #fff;
+	text-decoration: none;
+}
+section{
+	background-color: #fff;
+	padding: 20px;
+	margin-bottom: 40px;
+	border-radius: 10px;
+}
+header{
+	padding-top: 40px;
+}
+.logo{
+	font-size: 50px;
+	text-decoration: none;
+	color: #111;
+	font-weight: bold;
+}
+.logo:hover{
+	background-color: transparent;
+	color: #C74350;
+}
+
+
+.nav{
+	padding: 0;
+	margin: 0 0 20px;
+	list-style: none;
+	background-color: #444;
+	border-radius: 10px;
+}
+.nav li{
+	float: left;
+}
+.nav li a{
+	padding: 10px;
+	/*Делаем блочным елементом*/
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	font-size: 12px;
+}
+.nav li:first-child a{
+	border-radius: 10px 0 0 10px;
+}
+
+h2 a{
+	text-decoration: none;
+	color: #111;
+}
+h3 a{
+	text-decoration: none;
+}
+p{
+	margin-bottom: 0;
+}
+.date span{
+	font-size: 12px;
+	border-bottom:  1px dotted #111;
+}
+.widget-title{
+	color: #C74350;
+}
+.links{
+	padding: 0;
+	list-style: none;
+}
+.links a{
+	text-decoration: none;
+	display: block;
+	width: 150px;
+	padding: 3px 2px 3px 2px;
+	border-bottom: 1px solid #d4d4d4;
+	color: #111;
+	margin-left: 40px;
+	margin-bottom: 1px solid #fff;
+	/*box-shadow: 0 1px 1px #fff;*/
+	box-shadow: 0 1px 0 #fff;
+}
+.links a:hover{
+	color: #fff;
+}
+.links li{
+	float: left;
+	width: 25%;
+}
+
+.links li:nth-child(1) a,
+.links li:nth-child(5) a{
+	margin-left: 0;
+}
+
+.left, .right{
+	float: left;
+}
+.left{
+	width: 30%;
+}
+.right{
+	width: 70%;
+}
+
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
+
+
+.right p{
+	margin: 0;
+}
+footer p{
+	text-align: right;;
+}
+.motto{
+	margin: 0 0 20px 0;
+	font-size: 16px;
+}
